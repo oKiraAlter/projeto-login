@@ -4,3 +4,79 @@
 Verde: #49a09d
 Lilás: #5f2c82 */
 
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #4C2368;
+}
+
+main{
+    
+}
+
+span{
+    background-color: #5f2c82;
+    padding: 5px;
+}
+
+
+div{
+    display: block;
+    width: 50vw;
+}
+
+div#foto{
+    background-image: url(../imagens/pexels-shahrzad-17391986.jpg);
+    background-position: left center;
+    margin: 180px 100px 0px 100px;
+    padding: 10px;
+    height: 180px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    padding: 5px;
+}
+
+div#formulario{
+    margin: 0 100px 100px 100px;
+    padding: 10px;
+    background-color: #181A1B;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+::placeholder{
+    background-color: #49a09d;
+}
+
+input#enviar{
+    background-color: #49a09d; 
+    color: white; 
+    text-align: center;
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+}
+
+input#senhae{
+    background-color: #181A1B;
+    color: #49a09d;
+    text-align: center;
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    border-color: #49a09d;
+    border-width: .5px;
+
+}
