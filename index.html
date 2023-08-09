@@ -17,21 +17,17 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente, faça login para acessar sua conta.</p>
-                <form action="login.php" method="post">
-                    <p>
-                        <label for="imail"><span id="burguer" class="material-symbols-outlined">person</span></label>
-                        <input type="email" name="mail" id="imail" placeholder="Seu e-mail">
-                    </p>
-                    <p>
-                        <label for="isenha"><span id="burguer" class="material-symbols-outlined">vpn_key</span></label>
-                        <input type="password" name="senha" id="isenha" placeholder="Sua senha">
-                    </p>
-                   <p>
+                <form action="login.php" method="post" autocomplete="on"> 
+                       <div class="campo">
+                           <label for="imail"><span class="material-symbols-outlined">person</span></label>
+                           <input type="email" name="mail" id="imail" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+                       </div>
+                        <div class="campo">
+                            <label for="isenha"><span class="material-symbols-outlined">vpn_key</span></label>
+                            <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                        </div>
                     <input id="enviar" type="submit" value="Enviar">
-                   </p>
-                   <p>
-                    <input id="senhae" type="submit" value="Esqueci a senha">
-                   </p>
+                    <a href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
                 </form>
             </div>
         </section>
